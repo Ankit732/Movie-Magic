@@ -1,0 +1,131 @@
+.moviebox{
+   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+    width: 100%;
+  
+ 
+   
+}
+.sub-box{
+    
+    margin: 20px;
+    width: 20%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color:transparent;
+   border: 3px solid black;
+   border-radius: 2%;
+   flex-wrap: wrap;
+   margin-left: 3%;
+    
+
+}
+.sub-box:hover{
+
+background-color:rgba(128, 128, 128, 0.801);
+transition: 1ms;
+box-shadow: rgba(0, 0, 0, 0.492) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+
+}
+.sub-box:hover h1{
+  color: whitesmoke;
+  font-size: 27px;
+  transition: 0ms;
+}
+
+
+.heading{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+
+.poster img{
+  
+  height: 250px;
+  width: 200px;
+  margin: 10px;
+  border-radius: 5%;
+
+}
+.sub-box:hover img{
+  height: 330px;
+  width: 250px;
+ 
+  
+  
+}
+.movieErr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.navs{
+
+  text-decoration: none;
+}
+
+@media (max-width: 1200px){
+  .sub-box{
+    width: 40%;
+    margin:5%;
+    height: 40vh;
+  }
+  .sub-box:hover{
+
+    background-color:rgba(128, 128, 128, 0.801);
+    transition: 1ms;
+    box-shadow: rgba(0, 0, 0, 0.492) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    
+    }
+
+}
+@media (max-width: 768px) {
+  .sub-box {
+    width: 70vh; /* Adjust the width for smaller screens */
+    height: 50vh;
+    margin: 10%;
+  }
+
+  .poster img {
+    height: 30vh; /* Allow the height to adjust proportionally */
+    width: 100%; /* Make the width 100% to fit the container */
+   
+  }
+  .sub-box:hover{
+
+    background-color:rgba(128, 128, 128, 0.801);
+    transition: 1ms;
+    box-shadow: rgba(0, 0, 0, 0.492) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    
+    }
+}
+
+/* Responsive adjustments for even smaller screens */
+@media (max-width: 480px) {
+  .sub-box {
+    width: 80%; /* Further adjust the width for very small screens */
+    height: 50vh;
+  }
+  .poster img {
+    height: 30vh; /* Allow the height to adjust proportionally */
+    width: 100%; /* Make the width 100% to fit the container */
+   
+  }
+  .sub-box:hover{
+
+    background-color:rgba(128, 128, 128, 0.801);
+    transition: 1ms;
+    box-shadow: rgba(0, 0, 0, 0.492) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    
+    
+    }
+}
